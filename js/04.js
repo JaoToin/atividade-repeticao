@@ -20,7 +20,7 @@ var contSexoMasculino = 0
 btnNum1.addEventListener('click', (evt) => {
    
     var idade = Number(inputIdade.value)
-    var sexo = Number(inputSexo.value)
+    var sexo = (inputSexo.value)
 
     
     
@@ -37,10 +37,10 @@ btnNum1.addEventListener('click', (evt) => {
  }
 
 
- if(sexo == "masculino") {
+ if((sexo == "masculino") || (sexo == "MASCULINO")) {
     contSexoMasculino++
  }
- else if(sexo === "feminino"){
+ else if((sexo == "feminino") || (sexo == "MASCULINO")){
     contSexoFeminino++
 }
 
