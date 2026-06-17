@@ -37,10 +37,10 @@ btnNum1.addEventListener('click', (evt) => {
  }
 
 
- if(sexo == "masculino") {
+ if(sexo === "M") {
     contSexoMasculino++
  }
- else if(sexo === "feminino"){
+ else if(sexo === "F"){
     contSexoFeminino++
 }
 
@@ -55,12 +55,6 @@ btnNum1.addEventListener('click', (evt) => {
 
 
     
-    inputIdade.value = ''
-    inputSexo.value = ''
-    inputNome.value = ''
-
-
-
 
 })
     
